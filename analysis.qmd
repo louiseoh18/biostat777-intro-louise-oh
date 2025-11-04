@@ -67,10 +67,10 @@ kable(dict, col.names = c("Variable", "Description"))
 
 ### Data Wrangling
 
-The raw `NHANES` dataset contains 10,000 observations. This data is filtered for adults (Age \>= 18) and rows with missing data for our key variables were removed. A summarized dataset is also created and used to analyze group averages.
+The raw `NHANES` dataset contains 10,000 observations. This data is filtered for adults (Age \>= 18) and rows with missing data for our key variables were removed. 
 
 ```{r}
-#| label: wrangling
+#| label: clean
 #| message: false
 #| warning: false
 
@@ -82,6 +82,16 @@ nhanes_clean <- NHANES |>
          !is.na(BPSysAve),
          !is.na(SmokeNow)) |>
   rename(SystolicBP = BPSysAve)
+nhanes_clean |> 
+  DT::datatable()
+```
+
+A summarized dataset is also created and used to analyze group averages.
+
+```{r}
+#| label: summarize
+#| message: false
+#| warning: false
 
 # summarized dataset
 nhanes_summary <- nhanes_clean |>
@@ -89,6 +99,8 @@ nhanes_summary <- nhanes_clean |>
   summarize(MeanBMI = mean(BMI),
             MeanBP = mean(SystolicBP),
             .groups = 'drop')
+nhanes_summary |> 
+  kable()
 ```
 
 ### Analysis and Visualization
