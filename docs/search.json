@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am particularly interested in epidemiological modeling, clinical data sciences, and using data visualization to communicate complex health information. My goal is to leverage data to contribute to meaningful public health outcomes."
+  },
+  {
+    "objectID": "about.html#interests",
+    "href": "about.html#interests",
+    "title": "About",
+    "section": "",
+    "text": "I am particularly interested in epidemiological modeling, clinical data sciences, and using data visualization to communicate complex health information. My goal is to leverage data to contribute to meaningful public health outcomes."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nScM Candidate in Biostatistics | Johns Hopkins School of Public Health | August 2025 - Present\nB.A. in Statistics | Northwestern University | September 2021 - June 2025"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nKorea Disease Control and Prevention |  Health Convergence @ Ewha (Dr. Minah Park) | Epidemiology researcher | September 2024 - December 2024\nUniversity of California, Los Angeles |  W Lab @ School of Dentistry (Dr. David Wong) | Bioinformatics researcher (NSF REU) | June 2024 - August 2024\nPfizer | Oncology & Rare Diseases, R&D | Associate Data Manager, Clinical Data Sciences (NSF REU) | June 2023 - August 2023"
+  },
+  {
+    "objectID": "about.html#projects",
+    "href": "about.html#projects",
+    "title": "About",
+    "section": "Projects",
+    "text": "Projects\n Saliva cell-free DNA as a biomarker for early detection of gastric cancer Oh, L., Sarwar, H., et al. (2024). UCLA School of Dentistry, W Lab.\n Dashboard: Communicable Disease Trends in OECD Countries by Louise Oh. (2023). Northwestern University (Data Science independent project)\n Predicting Automobile Safety using ML by Louise Oh, Eileen Kwon, and Lucia Koo. (2024). Northwestern University (Data Science group project)\n Improving Pregnancy Care During the Pandemic by Louise Oh. (2024). Northwestern University (Data Science independent project)"
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "Home",
+    "section": "",
+    "text": "I am a young biostatistician in training. I am pursuing my ScM in Biostatistics at Johns Hopkins School of Public Health. I completed my Bachelor’s degree at Northwestern University with a major in Statistics in minors in Data Science and Global Health Studies.\nI spend my free time Olympic Weightlifting, traveling, and spending time with my friends and family."
+  },
+  {
+    "objectID": "home.html#about",
+    "href": "home.html#about",
+    "title": "Home",
+    "section": "",
+    "text": "I am a young biostatistician in training. I am pursuing my ScM in Biostatistics at Johns Hopkins School of Public Health. I completed my Bachelor’s degree at Northwestern University with a major in Statistics in minors in Data Science and Global Health Studies.\nI spend my free time Olympic Weightlifting, traveling, and spending time with my friends and family."
+  }
+]

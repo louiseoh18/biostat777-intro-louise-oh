@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Louise Oh" 
+  navbar:
+    left:
+      - href: home.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: analysis.qmd
+        text: Example Analysis
+  page-footer:
+    right: "Built with Quarto"
+    left: "&copy; 2025, Louise Oh" 
+
+format:
+  html:
+    theme: litera
+    css: styles.css
+    toc: true
+
+bibliography: references.bib

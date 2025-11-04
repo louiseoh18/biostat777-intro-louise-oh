@@ -1,0 +1,32 @@
+---
+title: "About"
+---
+
+## Interests
+
+I am particularly interested in epidemiological modeling, clinical data sciences, and using data visualization to communicate complex health information. My goal is to leverage data to contribute to meaningful public health outcomes.
+
+## Education
+
+<font size="4">**ScM Candidate in Biostatistics**</font> | Johns Hopkins School of Public Health | August 2025 - Present
+
+<font size="4">**B.A. in Statistics**</font> | Northwestern University | September 2021 - June 2025
+
+## Experience
+
+<font size="4">**Korea Disease Control and Prevention**</font> | <a href="https://pure.ewha.ac.kr/en/persons/minah-park"><span style="color:  #515897;"> Health Convergence @ Ewha (Dr. Minah Park)</span></a> | <span style="color:  #495057;">Epidemiology researcher</span></a> |  September 2024 - December 2024
+
+<font size="4">**University of California, Los Angeles**</font> | <a href="https://www.hspp.ucla.edu/"><span style="color:  #515897;"> W Lab @ School of Dentistry (Dr. David Wong)</span></a> | <span style="color:  #495057;">Bioinformatics researcher (NSF REU)</span></a> | June 2024 - August 2024
+
+<font size="4">**Pfizer**</font> | Oncology & Rare Diseases, R&D</span></a> | <span style="color:  #495057;">Associate Data Manager, Clinical Data Sciences (NSF REU)</span></a> | June 2023 - August 2023
+
+## Projects
+
+<a href="https://github.com/louiseoh18/cfDNA-gastric-NGS.git"><span style="color: #000000;"> **Saliva cell-free DNA as a biomarker for early detection of gastric cancer**</span></a> Oh, L., Sarwar, H., et al. (2024). UCLA School of Dentistry, W Lab.
+
+<a href="https://github.com/louiseoh18/disease-trend-dashboard.git"><span style="color: #000000;"> **Dashboard: Communicable Disease Trends in OECD Countries**</span></a> by Louise Oh. (2023). Northwestern University (Data Science independent project)
+
+<a href="https://github.com/louiseoh18/automobile-safety-ML.git"><span style="color: #000000;"> **Predicting Automobile Safety using ML**</span></a> by Louise Oh, Eileen Kwon, and Lucia Koo. (2024). Northwestern University (Data Science group project)
+
+<a href="https://github.com/louiseoh18/pregnancy-care-ML.git"><span style="color: #000000;"> **Improving Pregnancy Care During the Pandemic**</span></a> by Louise Oh. (2024). Northwestern University (Data Science independent project)
+

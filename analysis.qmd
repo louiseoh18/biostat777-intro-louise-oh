@@ -1,0 +1,188 @@
+---
+title: "Example Analysis"
+subtitle: "Exploring BMI & Blood Pressure by Age and Smoking Status"
+format:
+  html:
+    toc: true
+    code-fold: true
+    code-summary: "Show R Code"
+---
+
+```{r}
+#| label: setup
+#| include: false
+# load libraries
+library(tidyverse)
+library(NHANES)
+library(knitr)
+```
+
+### Introduction
+
+This analysis uses data from the National Health and Nutrition Examination Survey (NHANES) [@CDC_NHANES]. NHANES is a major program from the Centers for Disease Control and Prevention (CDC) designed to assess the health and nutritional status of adults and children in the United States. This survey combines interviews and physical examinations to collect a wide range of health data. The `NHANES` R package provides a conveniently packaged subset of this data for analysis.
+
+![NHANES Logo](images/nhanes.png){fig-align="center" width="1000"}
+
+::: column-margin
+In this analysis, the `dplyr` package [@dplyr] was used for data manipulation and `ggplot2` package [@ggplot2] was used for data visualization.
+:::
+
+-   **Question:** How do Body Mass Index (BMI) and average Systolic Blood Pressure relate to age, gender, and smoking status in the 2011-2012 US adult population?
+
+-   **Audience:** This analysis is intended for public health students or introductory epidemiology classes interested in basic health metrics and exploratory data analysis.
+
+::: {.callout-note title="Objective"}
+The objective of this analysis is to prepare a clean subset of the NHANES data and visualize relationships between key demographic variables (age, gender, smoking) and two critical health outcomes (BMI and blood pressure).
+:::
+
+#### Key Health Metrics
+
+- **Body Mass Index (BMI)** is a widely used screening tool that provides a measure of body fat based on height and weight. According to the CDC, a BMI of 18.5 to 25 is considered a healthy weight, 25 to 30 is overweight, and 30 or greater is classified as obesity [@CDC_BMI_Cats]. While not a perfect diagnostic tool, BMI is an essential metric that is non-invasive for assessing weight-related health risks at a population level.
+
+- **Systolic Blood Pressure (SBP)**, the "top number" in a reading, measures the pressure in your arteries when your heart beats. According to the American Heart Association, a normal SBP is less than 120 mmHg, while 120-129 is considered elevated, and 130 or higher indicates hypertension [@AHA_BP_Levels]. Monitoring SBP is critical as high blood pressure often has no symptoms but is a major risk factor for heart disease and stroke.
+
+### Data Dictionary
+
+A brief dictionary for the variables used in this analysis is provided below.
+
+```{r}
+#| label: data-dictionary
+#| echo: false
+#| tbl-cap: "Data dictionary for key variables."
+#| tbl-cap-location: top
+
+dict <- data.frame(
+  Variable = c("Age", "Gender", "BMI", "BPSysAve", "SmokeNow", "Education"),
+  Description = c(
+    "Age in years at the time of screening.",
+    "Participant's gender (male or female).",
+    "Body Mass Index (kg/m^2).",
+    "Average Systolic Blood Pressure (mmHg).",
+    "Current smoking status ('Yes' or 'No').",
+    "Educational attainment level."
+  )
+)
+kable(dict, col.names = c("Variable", "Description"))
+```
+
+### Data Wrangling
+
+The raw `NHANES` dataset contains 10,000 observations. This data is filtered for adults (Age \>= 18) and rows with missing data for our key variables were removed. A summarized dataset is also created and used to analyze group averages.
+
+```{r}
+#| label: wrangling
+#| message: false
+#| warning: false
+
+# main dataset
+nhanes_clean <- NHANES |>
+  select(Age, Gender, BMI, BPSysAve, SmokeNow, Education) |>
+  filter(Age >= 18,
+         !is.na(BMI),
+         !is.na(BPSysAve),
+         !is.na(SmokeNow)) |>
+  rename(SystolicBP = BPSysAve)
+
+# summarized dataset
+nhanes_summary <- nhanes_clean |>
+  group_by(Gender, SmokeNow) |>
+  summarize(MeanBMI = mean(BMI),
+            MeanBP = mean(SystolicBP),
+            .groups = 'drop')
+```
+
+### Analysis and Visualization
+
+#### BMI vs. Age
+
+This scatter plot explores the relationship between age and BMI, separated by gender.
+
+```{r}
+#| label: plot-1
+#| fig-cap: "BMI tends to slightly increase with age for both males and females."
+#| warning: false
+
+ggplot(nhanes_clean, aes(x = Age, y = BMI, color = Gender)) +
+  geom_point(alpha = 0.2) + 
+  geom_smooth(method = "lm", se = FALSE) +
+  labs(title = "Body Mass Index (BMI) vs. Age in US Adults",
+       subtitle = "Data from 2011-2012 NHANES Survey",
+       x = "Age (Years)",
+       y = "Body Mass Index (BMI)",
+       color = "Gender",
+       caption = "Source: NHANES R Package") +
+  coord_cartesian(ylim = c(15, 45)) +  
+  theme_minimal()
+```
+
+This scatter plot visualizes the relationship between age and BMI for adult males and females. The points are widely dispersed, indicating high variability in BMI across all ages. The linear trend lines for both genders show a slight positive slope, suggesting that, on average, BMI modestly increases as individuals get older in this population.
+
+#### Mean BMI by Smoking Status and Gender
+
+This bar plot uses the summarized data to compare group averages.
+
+```{r}
+#| label: plot-2-facet
+#| fig-cap: "Mean BMI, faceted by gender."
+#| warning: false
+
+ggplot(nhanes_summary, aes(x = SmokeNow, y = MeanBMI, fill = SmokeNow)) +
+  geom_col() +
+  facet_wrap(~Gender) +
+  labs(title = "Mean BMI by Smoking Status and Gender",
+       subtitle = "Mean BMI is slightly lower for current smokers",
+       x = "Currently Smokes",
+       y = "Mean BMI (kg/m^2)",
+       fill = "Smokes",
+       caption = "Source: NHANES R Package") +
+  theme_minimal()
+```
+
+This bar chart compares the mean BMI for four distinct groups: male smokers, male non-smokers, female smokers, and female non-smokers. The comparison within genders show that non-smokers have a higher mean BMI than current smokers in both males and females, with males having a slightly higher BMI than females in both categories.
+
+#### Distribution of Systolic Blood Pressure
+
+Observe the distribution of systolic blood pressure, comparing smokers and non-smokers.
+
+```{r}
+#| label: plot-3
+#| fig-cap: "The distribution of systolic blood pressure appears similar for smokers and non-smokers."
+#| warning: false
+
+ggplot(nhanes_clean, aes(x = SystolicBP, fill = SmokeNow)) +
+  geom_density(alpha = 0.3) +
+  geom_vline(xintercept = 120, linetype = "dashed", color = "red") +
+  labs(title = "Distribution of Systolic Blood Pressure by Smoking Status",
+       subtitle = "Red dotted line indicates 120 mmHg (Elevated)",
+       x = "Average Systolic BP (mmHg)",
+       y = "Density",
+       fill = "Currently Smokes",
+       caption = "Source: NHANES R Package") +
+  theme_minimal()
+```
+
+This density plot shows the distribution of systolic blood pressure. Both smokers and non-smokers have distributions that peak near the 120 mmHg mark (the red dotted line, indicating "elevated" blood pressure). The shapes and peaks of the two distributions are very similar, suggesting smoking status may not have a strong independent effect on average systolic BP in this dataset, though both groups have a significant number of individuals in the elevated and hypertensive ranges.
+
+::: {.callout-caution title="Summary"}
+While BMI increases with age and is paradoxically lower in current smokers, systolic blood pressure distributions are similar for both smokers and non-smokers, clustering around the "elevated" 120 mmHg mark [@AHA_BP_Levels] in a population with a high prevalence of overweight and obesity [@CDC_BMI_Cats].
+:::
+
+### Conclusion
+
+This analysis of the 2011-2012 NHANES data [@CDC_NHANES] reveals several key health patterns in US adults. A positive correlation exists between age and Body Mass Index (BMI), with BMI tending to increase as individuals get older. On average, males in this cohort show a slightly higher mean BMI than females. Interestingly, current smokers had a lower mean BMI than non-smokers in both gender groups. In contrast, systolic blood pressure distributions for smokers and non-smokers were very similar, with both groups clustering around the 120 mmHg mark, which the American Heart Association classifies as "elevated" [@AHA_BP_Levels]. A significant portion of participants, regardless of smoking status, have a BMI that falls into the overweight or obesity categories as defined by the CDC [@CDC_BMI_Cats].
+
+
+### Functions Used
+
+-   **dplyr/tidyr:**
+    -   `select()`
+    -   `filter()`
+    -   `rename()`
+    -   `group_by()`
+    -   `summarize()`
+-   **ggplot2:**
+    -   `geom_point()`
+    -   `geom_smooth()`
+    -   `geom_col()`
+    -   `geom_density()`
+    -   `facet_wrap()`
