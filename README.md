@@ -4,7 +4,7 @@
 Louise Oh 
 
 ## Deployed Website
-[View my website here](https://louiseoh18.github.io/biostat777-intro-Louise-Oh/home.html)
+[View my website here](https://louiseoh18.github.io/biostat777-intro-louise-oh/)
 
 ## Technical Details
 

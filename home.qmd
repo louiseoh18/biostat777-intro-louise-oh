@@ -1,20 +1,19 @@
 ---
-title: "Home"
-image: "louise.jpg"
-links:
-  - label: LinkedIn
-    url: "https://www.linkedin.com/in/louise-oh/"
-  - label: GitHub
-    url: "https://github.com/louiseoh18"
-  - label: Email
-    url: "mailto:loh5@jh.edu"
-output:
-  postcards::jolla
+title: "Louise Oh"
+image: "images/louise.jpg"
+about:
+  template: jolla
+  links:
+    - text: LinkedIn
+      url: "https://www.linkedin.com/in/louise-oh/"
+    - text: GitHub
+      url: "https://github.com/louiseoh18"
+    - text: Email
+      url: "mailto:loh5@jh.edu"
+output: postcards::jolla
 ---
 
-## About 
+I am a young biostatistician in training. I am pursuing my ScM in Biostatistics at <a href="https://publichealth.jhu.edu/"><span style="color: #002D72;"><b>Johns Hopkins School of Public Health</b></span></a>. I completed my Bachelor's degree at <a href="https://www.northwestern.edu/"><span style="color: #4E2A84;"><b>Northwestern University</b></span></a> with a major in Statistics in minors in Data Science and Global Health Studies. 
 
-I am a young biostatistician in training. I am pursuing my ScM in Biostatistics at <a href="https://publichealth.jhu.edu/"><span style="color: #515897;"><b>Johns Hopkins School of Public Health</b></span></a>. I completed my Bachelor's degree at <a href="https://www.northwestern.edu/"><span style="color: #515897;"><b>Northwestern University</b></span></a> with a major in Statistics in minors in Data Science and Global Health Studies. 
-
-I spend my free time Olympic Weightlifting, traveling, and spending time with my friends and family.
+I was born in New Jersey and raised in the Philippines and South Korea. I spend my free time Olympic weightlifting and CrossFit. I also love traveling, thrifting, and exploring cafes and bakeries in town. 
 

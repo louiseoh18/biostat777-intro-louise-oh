@@ -25,26 +25,33 @@
     "href": "about.html#experience",
     "title": "About",
     "section": "Experience",
-    "text": "Experience\nKorea Disease Control and Prevention |  Health Convergence @ Ewha (Dr. Minah Park) | Epidemiology researcher | September 2024 - December 2024\nUniversity of California, Los Angeles |  W Lab @ School of Dentistry (Dr. David Wong) | Bioinformatics researcher (NSF REU) | June 2024 - August 2024\nPfizer | Oncology & Rare Diseases, R&D | Associate Data Manager, Clinical Data Sciences (NSF REU) | June 2023 - August 2023"
+    "text": "Experience\nKorea Disease Control and Prevention |  Health Convergence @ Ewha (Dr. Minah Park) | Epidemiology Researcher | September 2024 - December 2024\nUniversity of California, Los Angeles |  W Lab @ School of Dentistry (Dr. David Wong) | Bioinformatics Researcher (NSF REU) | June 2024 - August 2024\nPfizer | Oncology & Rare Diseases, R&D | Associate Data Manager, Clinical Data Sciences (NSF REU) | June 2023 - August 2023"
   },
   {
     "objectID": "about.html#projects",
     "href": "about.html#projects",
     "title": "About",
     "section": "Projects",
-    "text": "Projects\n Saliva cell-free DNA as a biomarker for early detection of gastric cancer Oh, L., Sarwar, H., et al. (2024). UCLA School of Dentistry, W Lab.\n Dashboard: Communicable Disease Trends in OECD Countries by Louise Oh. (2023). Northwestern University (Data Science independent project)\n Predicting Automobile Safety using ML by Louise Oh, Eileen Kwon, and Lucia Koo. (2024). Northwestern University (Data Science group project)\n Improving Pregnancy Care During the Pandemic by Louise Oh. (2024). Northwestern University (Data Science independent project)"
+    "text": "Projects\n Saliva cell-free DNA as a biomarker for early detection of gastric cancer Oh, L., Sarwar, H., et al. (2024). W Lab @ UCLA School of Dentistry.\n Dashboard: Communicable Disease Trends in OECD Countries by Louise Oh. (2023). Northwestern University (Data Science independent project)\n Predicting Automobile Safety using ML by Louise Oh, Eileen Kwon, and Lucia Koo. (2024). Northwestern University (Data Science group project)\n Improving Pregnancy Care During the Pandemic by Louise Oh. (2024). Northwestern University (Data Science independent project)"
   },
   {
     "objectID": "home.html",
     "href": "home.html",
-    "title": "Home",
+    "title": "Louise Oh",
     "section": "",
-    "text": "I am a young biostatistician in training. I am pursuing my ScM in Biostatistics at Johns Hopkins School of Public Health. I completed my Bachelor’s degree at Northwestern University with a major in Statistics in minors in Data Science and Global Health Studies.\nI spend my free time Olympic Weightlifting, traveling, and spending time with my friends and family."
+    "text": "I am a young biostatistician in training. I am pursuing my ScM in Biostatistics at Johns Hopkins School of Public Health. I completed my Bachelor’s degree at Northwestern University with a major in Statistics in minors in Data Science and Global Health Studies.\nI was born in New Jersey and raised in the Philippines and South Korea. I spend my free time Olympic weightlifting and CrossFit. I also love traveling, thrifting, and exploring cafes and bakeries in town."
   },
   {
     "objectID": "home.html#about",
     "href": "home.html#about",
     "title": "Home",
+    "section": "",
+    "text": "I am a young biostatistician in training. I am pursuing my ScM in Biostatistics at Johns Hopkins School of Public Health. I completed my Bachelor’s degree at Northwestern University with a major in Statistics in minors in Data Science and Global Health Studies.\nI spend my free time Olympic Weightlifting, traveling, and spending time with my friends and family."
+  },
+  {
+    "objectID": "home.html#about-me",
+    "href": "home.html#about-me",
+    "title": "Louise Oh",
     "section": "",
     "text": "I am a young biostatistician in training. I am pursuing my ScM in Biostatistics at Johns Hopkins School of Public Health. I completed my Bachelor’s degree at Northwestern University with a major in Statistics in minors in Data Science and Global Health Studies.\nI spend my free time Olympic Weightlifting, traveling, and spending time with my friends and family."
   }
