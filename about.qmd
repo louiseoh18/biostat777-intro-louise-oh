@@ -2,10 +2,6 @@
 title: "About"
 ---
 
-## Interests
-
-I am particularly interested in epidemiological modeling, clinical data sciences, and using data visualization to communicate complex health information. My goal is to leverage data to contribute to meaningful public health outcomes.
-
 ## Education
 
 <font size="4">**ScM Candidate in Biostatistics**</font><br>Johns Hopkins School of Public Health | August 2025 - Present
@@ -30,3 +26,11 @@ I am particularly interested in epidemiological modeling, clinical data sciences
 
 <a href="https://github.com/louiseoh18/pregnancy-care-ML.git"><span style="color: #000000;"> **Improving Pregnancy Care During the Pandemic**</span></a> by Louise Oh. (2024). Northwestern University (Data Science independent project)
 
+
+## Personal
+
+- I was born in New Jersey and raised in the Philippines and South Korea. 
+
+- I enjoy lifting things overhead. Outside of classes, you can usually find me training for Olympic weightlifting. Every now and then, I’m forced to join CrossFit classes to get just enough cardio to survive everyday life. I also compete occasionally for fun.
+
+- I used to play the piano with hopes of attending a conservatory, but eventually realized my greater passion lay elsewhere. Still, I love listening to orchestras and recitals, and I was especially excited to join an institution with a renowned music school like Peabody.

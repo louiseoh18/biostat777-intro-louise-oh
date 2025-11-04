@@ -5,13 +5,16 @@ about:
   template: jolla
   links:
     - text: LinkedIn
+      icon: linkedin
       url: "https://www.linkedin.com/in/louise-oh/"
     - text: GitHub
+      icon: github
       url: "https://github.com/louiseoh18"
+    - text: Email
+      icon: envelope
+      url: "mailto:loh5@jh.edu"
 output: postcards::jolla
 ---
 
 I am a young biostatistician in training. I am pursuing my ScM in Biostatistics at <a href="https://publichealth.jhu.edu/"><span style="color: #002D72;"><b>Johns Hopkins School of Public Health</b></span></a>. I completed my Bachelor's degree at <a href="https://www.northwestern.edu/"><span style="color: #4E2A84;"><b>Northwestern University</b></span></a> with a major in Statistics in minors in Data Science and Global Health Studies. 
-
-I was born in New Jersey and raised in the Philippines and South Korea. I usually spend my free time Olympic Lifting or exploring cafes and bakeries in town. 
 

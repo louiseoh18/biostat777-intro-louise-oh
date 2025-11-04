@@ -11,28 +11,21 @@
     "href": "home.html",
     "title": "Louise Oh",
     "section": "",
-    "text": "I am a young biostatistician in training. I am pursuing my ScM in Biostatistics at Johns Hopkins School of Public Health. I completed my Bachelor’s degree at Northwestern University with a major in Statistics in minors in Data Science and Global Health Studies.\nI was born in New Jersey and raised in the Philippines and South Korea. I usually spend my free time Olympic Lifting or exploring cafes and bakeries in town."
+    "text": "I am a young biostatistician in training. I am pursuing my ScM in Biostatistics at Johns Hopkins School of Public Health. I completed my Bachelor’s degree at Northwestern University with a major in Statistics in minors in Data Science and Global Health Studies."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I am particularly interested in epidemiological modeling, clinical data sciences, and using data visualization to communicate complex health information. My goal is to leverage data to contribute to meaningful public health outcomes."
-  },
-  {
-    "objectID": "about.html#interests",
-    "href": "about.html#interests",
-    "title": "About",
-    "section": "",
-    "text": "I am particularly interested in epidemiological modeling, clinical data sciences, and using data visualization to communicate complex health information. My goal is to leverage data to contribute to meaningful public health outcomes."
+    "text": "ScM Candidate in BiostatisticsJohns Hopkins School of Public Health | August 2025 - Present\nBA in Statistics with minors in Data Science and Global Health StudiesNorthwestern University | September 2021 - June 2025"
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "About",
-    "section": "Education",
-    "text": "Education\nScM Candidate in BiostatisticsJohns Hopkins School of Public Health | August 2025 - Present\nBA in Statistics with minors in Data Science and Global Health StudiesNorthwestern University | September 2021 - June 2025"
+    "section": "",
+    "text": "ScM Candidate in BiostatisticsJohns Hopkins School of Public Health | August 2025 - Present\nBA in Statistics with minors in Data Science and Global Health StudiesNorthwestern University | September 2021 - June 2025"
   },
   {
     "objectID": "about.html#experience",
@@ -47,5 +40,19 @@
     "title": "About",
     "section": "Projects",
     "text": "Projects\n Saliva cell-free DNA as a biomarker for early detection of gastric cancer Oh, L., Sarwar, H., et al. (2024). W Lab @ UCLA School of Dentistry.\n Dashboard: Communicable Disease Trends in OECD Countries by Louise Oh. (2023). Northwestern University (Data Science independent project)\n Predicting Automobile Safety using ML by Louise Oh, Eileen Kwon, and Lucia Koo. (2024). Northwestern University (Data Science group project)\n Improving Pregnancy Care During the Pandemic by Louise Oh. (2024). Northwestern University (Data Science independent project)"
+  },
+  {
+    "objectID": "about.html#hobbies",
+    "href": "about.html#hobbies",
+    "title": "About",
+    "section": "Hobbies",
+    "text": "Hobbies\n\nI grew up in a beautiful island in the Philippines. I love swimming, free diving, and scuba diving in the ocean.\nI enjoy lifting things overhead. Outside of classes, you can usually find me training for Olympic weightlifting. Every now and then, I’m forced to join CrossFit classes to get just enough cardio to survive everyday life. I also compete occasionally for fun.\nI used to play the piano with hopes of attending a conservatory, but eventually realized my greater passion lay elsewhere. Still, I love listening to orchestras and recitals, and I was especially excited to join an institution with a renowned music school like Peabody."
+  },
+  {
+    "objectID": "about.html#personal",
+    "href": "about.html#personal",
+    "title": "About",
+    "section": "Personal",
+    "text": "Personal\n\nI was born in New Jersey and raised in the Philippines and South Korea.\nI enjoy lifting things overhead. Outside of classes, you can usually find me training for Olympic weightlifting. Every now and then, I’m forced to join CrossFit classes to get just enough cardio to survive everyday life. I also compete occasionally for fun.\nI used to play the piano with hopes of attending a conservatory, but eventually realized my greater passion lay elsewhere. Still, I love listening to orchestras and recitals, and I was especially excited to join an institution with a renowned music school like Peabody."
   }
 ]
