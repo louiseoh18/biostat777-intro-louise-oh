@@ -13,7 +13,7 @@ website:
       - href: analysis.qmd
         text: Example Analysis
   page-footer:
-    right: "Built with Quarto"
+    right: "Project 1 (biostat777)"
     left: "&copy; 2025, Louise Oh" 
 
 format:

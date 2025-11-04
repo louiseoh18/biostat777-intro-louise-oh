@@ -29,7 +29,7 @@ In this analysis, the `dplyr` package [@dplyr] was used for data manipulation an
 
 -   **Question:** How do Body Mass Index (BMI) and average Systolic Blood Pressure relate to age, gender, and smoking status in the 2011-2012 US adult population?
 
--   **Audience:** This analysis is intended for public health students or introductory epidemiology classes interested in basic health metrics and exploratory data analysis.
+-   **Audience:** This analysis is intended for anyone interested in understanding how lifestyle and demographic factors could be related to health outcomes in the U.S. population, or public health students interested in basic health metrics and exploratory data analysis.
 
 ::: {.callout-note title="Objective"}
 The objective of this analysis is to prepare a clean subset of the NHANES data and visualize relationships between key demographic variables (age, gender, smoking) and two critical health outcomes (BMI and blood pressure).

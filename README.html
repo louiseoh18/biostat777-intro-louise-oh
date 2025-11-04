@@ -60,14 +60,17 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="technical-details">Technical Details</h2>
 <p>This website was built using <strong>Quarto</strong>, an open-source scientific and technical publishing system.</p>
 <ul>
-<li><strong>Framework:</strong> Quarto Website</li>
-<li><strong>Editing:</strong> Built locally in RStudio and VSCode.</li>
+<li><strong>Editing:</strong> Built locally in RStudio.</li>
 <li><strong>Analysis:</strong> The <code>Example Analysis</code> page was rendered from a <code>.qmd</code> file, executing R code chunks.</li>
-<li><strong>Key R Packages Used:</strong>
+<li><strong>R Packages Used:</strong>
 <ul>
-<li><code>tidyverse</code> (for <code>dplyr</code> and <code>tidyr</code> data wrangling)</li>
-<li><code>ggplot2</code> (for visualization)</li>
-<li><code>palmerpenguins</code> (for the dataset)</li>
+<li><code>tidyverse</code>
+<ul>
+<li><code>dplyr</code>, <code>tidyr</code> for data wrangling</li>
+<li><code>ggplot2</code> for data visualization</li>
+</ul></li>
+<li><code>knitr</code>, <code>DT</code> for data tables</li>
+<li><code>NHANES</code> for dataset</li>
 </ul></li>
 <li><strong>Deployment:</strong> This site is deployed using <a href="https://pages.github.com/">GitHub Pages</a>. The <code>_quarto.yml</code> file is configured to output the rendered HTML to the <code>/docs</code> folder, which is set as the publishing source in the repository settings.</li>
 </ul>
