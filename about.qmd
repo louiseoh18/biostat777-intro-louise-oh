@@ -20,17 +20,16 @@ title: "About"
 
 <a href="https://github.com/louiseoh18/cfDNA-gastric-NGS.git"><span style="color: #000000;"> **Saliva cell-free DNA as a biomarker for early detection of gastric cancer**</span></a> Oh, L., Sarwar, H., et al. (2024). W Lab @ UCLA School of Dentistry.
 
-<a href="https://github.com/louiseoh18/disease-trend-dashboard.git"><span style="color: #000000;"> **Dashboard: Communicable Disease Trends in OECD Countries**</span></a> by Louise Oh. (2023). Northwestern University (Data Science independent project)
+<a href="https://github.com/louiseoh18/disease-trend-dashboard.git"><span style="color: #000000;"> **Dashboard: Communicable Disease Trends in OECD Countries**</span></a> by Louise Oh. (2023). Northwestern University (STAT302)
 
-<a href="https://github.com/louiseoh18/automobile-safety-ML.git"><span style="color: #000000;"> **Predicting Automobile Safety using ML**</span></a> by Louise Oh, Eileen Kwon, and Lucia Koo. (2024). Northwestern University (Data Science group project)
+<a href="https://github.com/louiseoh18/automobile-safety-ML.git"><span style="color: #000000;"> **Predicting Automobile Safety using ML**</span></a> by Louise Oh, Eileen Kwon, and Lucia Koo. (2024). Northwestern University (STAT301-3)
 
-<a href="https://github.com/louiseoh18/pregnancy-care-ML.git"><span style="color: #000000;"> **Improving Pregnancy Care During the Pandemic**</span></a> by Louise Oh. (2024). Northwestern University (Data Science independent project)
+<a href="https://github.com/louiseoh18/pregnancy-care-ML.git"><span style="color: #000000;"> **Improving Pregnancy Care During the Pandemic**</span></a> by Louise Oh. (2024). Northwestern University (STAT301-2)
 
 
-## Personal
+## Hobbies
 
-- I was born in New Jersey and raised in the Philippines and South Korea. 
+🏋 <br>I  dedicate most of my free time training for Olympic weightlifting. Every now and then, I also do CrossFit to get just enough cardio in to survive everyday life. I occasionally compete for fun.
 
-- I enjoy lifting things overhead. Outside of classes, you can usually find me training for Olympic weightlifting. Every now and then, I’m forced to join CrossFit classes to get just enough cardio to survive everyday life. I also compete occasionally for fun.
+🎵 <br>I enjoy attending piano concertos and recitals. I grew up playing the piano with hopes of attending a conservatory (I did not). Still, I was especially excited to join an institution with a renowned music school like Peabody!
 
-- I used to play the piano with hopes of attending a conservatory, but eventually realized my greater passion lay elsewhere. Still, I love listening to orchestras and recitals, and I was especially excited to join an institution with a renowned music school like Peabody.

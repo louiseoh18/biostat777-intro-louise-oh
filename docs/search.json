@@ -11,7 +11,7 @@
     "href": "home.html",
     "title": "Louise Oh",
     "section": "",
-    "text": "I am a young biostatistician in training. I am pursuing my ScM in Biostatistics at Johns Hopkins School of Public Health. I completed my Bachelor’s degree at Northwestern University with a major in Statistics in minors in Data Science and Global Health Studies."
+    "text": "I am a young biostatistician in training. I am pursuing my ScM in Biostatistics at Johns Hopkins School of Public Health. I completed my Bachelor’s degree at Northwestern University with a major in Statistics in minors in Data Science and Global Health Studies.\nI was born in New Jersey and grew up in Cebu, Philippines. I recently moved to Baltimore to study at Johns Hopkins, but my home base is currently in Seoul, South Korea."
   },
   {
     "objectID": "about.html",
@@ -39,13 +39,20 @@
     "href": "about.html#projects",
     "title": "About",
     "section": "Projects",
-    "text": "Projects\n Saliva cell-free DNA as a biomarker for early detection of gastric cancer Oh, L., Sarwar, H., et al. (2024). W Lab @ UCLA School of Dentistry.\n Dashboard: Communicable Disease Trends in OECD Countries by Louise Oh. (2023). Northwestern University (Data Science independent project)\n Predicting Automobile Safety using ML by Louise Oh, Eileen Kwon, and Lucia Koo. (2024). Northwestern University (Data Science group project)\n Improving Pregnancy Care During the Pandemic by Louise Oh. (2024). Northwestern University (Data Science independent project)"
+    "text": "Projects\n Saliva cell-free DNA as a biomarker for early detection of gastric cancer Oh, L., Sarwar, H., et al. (2024). W Lab @ UCLA School of Dentistry.\n Dashboard: Communicable Disease Trends in OECD Countries by Louise Oh. (2023). Northwestern University (STAT302)\n Predicting Automobile Safety using ML by Louise Oh, Eileen Kwon, and Lucia Koo. (2024). Northwestern University (STAT301-3)\n Improving Pregnancy Care During the Pandemic by Louise Oh. (2024). Northwestern University (STAT301-2)"
   },
   {
     "objectID": "about.html#personal",
     "href": "about.html#personal",
     "title": "About",
     "section": "Personal",
-    "text": "Personal\n\nI was born in New Jersey and raised in the Philippines and South Korea.\nI enjoy lifting things overhead. Outside of classes, you can usually find me training for Olympic weightlifting. Every now and then, I’m forced to join CrossFit classes to get just enough cardio to survive everyday life. I also compete occasionally for fun.\nI used to play the piano with hopes of attending a conservatory, but eventually realized my greater passion lay elsewhere. Still, I love listening to orchestras and recitals, and I was especially excited to join an institution with a renowned music school like Peabody."
+    "text": "Personal\n\nI was born in New Jersey and grew up in Cebu, Philippines. I recently moved to Baltimore to study at Johns Hopkins, but my home base is currently in Seoul, South Korea.\nI dedicate most of my free time training for Olympic Weightlifting. Every now and then, I also do CrossFit to get just enough cardio in to survive everyday life. I occasionally compete for fun.\nI enjoy attending piano concertos and recitals. I grew up playing the piano with hopes of attending a conservatory (I did not). Still, I was especially excited to join an institution with a renowned music school like Peabody!"
+  },
+  {
+    "objectID": "about.html#hobbies",
+    "href": "about.html#hobbies",
+    "title": "About",
+    "section": "Hobbies",
+    "text": "Hobbies\n🏋 I dedicate most of my free time training for Olympic weightlifting. Every now and then, I also do CrossFit to get just enough cardio in to survive everyday life. I occasionally compete for fun.\n🎵 I enjoy attending piano concertos and recitals. I grew up playing the piano with hopes of attending a conservatory (I did not). Still, I was especially excited to join an institution with a renowned music school like Peabody!"
   }
 ]
