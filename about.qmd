@@ -10,9 +10,9 @@ title: "About"
 
 ## Experience
 
-Epidemiology Researcher (KDCA)</span></a> | <font size="4">**Ewha University (Health Convergence)**</font> <span style="color:  #495057;"> | September 2024 - December 2024
+Epidemiology Researcher (KDCA)</span></a> | <font size="4">**Health Convergence @ Ewha University**</font> <span style="color:  #495057;"> | September 2024 - December 2024
 
-Bioinformatics Researcher (NSF REU)</span></a> | <font size="4">**UCLA (W Lab)**</font> <span style="color:  #495057;"> | June 2024 - August 2024
+Bioinformatics Researcher (NSF REU)</span></a> | <font size="4">**W Lab @ UCLA School of Dentistry**</font> <span style="color:  #495057;"> | June 2024 - August 2024
 
 Associate Data Manager, Clinical Data Sciences, R&D</span></a> | <font size="4">**Pfizer**</font> <span style="color:  #495057;"> | June 2023 - August 2023
 
