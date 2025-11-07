@@ -10,21 +10,21 @@ title: "About"
 
 ## Experience
 
-<font size="4">**Korea Disease Control and Prevention**</font> | <a href="https://pure.ewha.ac.kr/en/persons/minah-park"><span style="color:  #515897;"> Health Convergence @ Ewha (Dr. Minah Park)</span></a> | <span style="color:  #495057;">Epidemiology Researcher</span></a> |  September 2024 - December 2024
+Epidemiology Researcher (KDCA)</span></a> | <font size="4">**Ewha University (Health Convergence)**</font> <span style="color:  #495057;"> | September 2024 - December 2024
 
-<font size="4">**University of California, Los Angeles**</font> | <a href="https://www.hspp.ucla.edu/"><span style="color:  #515897;"> W Lab @ School of Dentistry (Dr. David Wong)</span></a> | <span style="color:  #495057;">Bioinformatics Researcher (NSF REU)</span></a> | June 2024 - August 2024
+Bioinformatics Researcher (NSF REU)</span></a> | <font size="4">**UCLA (W Lab)**</font> <span style="color:  #495057;"> | June 2024 - August 2024
 
-<font size="4">**Pfizer**</font> | Oncology & Rare Diseases, R&D</span></a> | <span style="color:  #495057;">Associate Data Manager, Clinical Data Sciences (NSF REU)</span></a> | June 2023 - August 2023
+Associate Data Manager, Clinical Data Sciences, R&D</span></a> | <font size="4">**Pfizer**</font> <span style="color:  #495057;"> | June 2023 - August 2023
 
 ## Projects
 
-<a href="https://github.com/louiseoh18/cfDNA-gastric-NGS.git"><span style="color: #000000;"> **Saliva cell-free DNA as a biomarker for early detection of gastric cancer**</span></a> Oh, L., Sarwar, H., et al. (2024). W Lab @ UCLA School of Dentistry.
+- <a href="https://github.com/louiseoh18/cfDNA-gastric-NGS.git"><span style="color: #000000;"> Saliva cell-free DNA as a biomarker for early detection of gastric cancer</span></a>
 
-<a href="https://github.com/louiseoh18/disease-trend-dashboard.git"><span style="color: #000000;"> **Dashboard: Communicable Disease Trends in OECD Countries**</span></a> by Louise Oh. (2023). Northwestern University (STAT302)
+- <a href="https://github.com/louiseoh18/disease-trend-dashboard.git"><span style="color: #000000;"> Dashboard: Communicable Disease Trends in OECD Countries</span></a> 
 
-<a href="https://github.com/louiseoh18/automobile-safety-ML.git"><span style="color: #000000;"> **Predicting Automobile Safety using ML**</span></a> by Louise Oh, Eileen Kwon, and Lucia Koo. (2024). Northwestern University (STAT301-3)
+- <a href="https://github.com/louiseoh18/automobile-safety-ML.git"><span style="color: #000000;"> Predicting Automobile Safety using ML</span></a> 
 
-<a href="https://github.com/louiseoh18/pregnancy-care-ML.git"><span style="color: #000000;"> **Improving Pregnancy Care During the Pandemic**</span></a> by Louise Oh. (2024). Northwestern University (STAT301-2)
+- <a href="https://github.com/louiseoh18/pregnancy-care-ML.git"><span style="color: #000000;"> Improving Pregnancy Care During the Pandemic</span></a>
 
 
 ## Hobbies
