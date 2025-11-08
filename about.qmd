@@ -2,6 +2,12 @@
 title: "About"
 ---
 
+## Hobbies
+
+I  dedicate most of my free time training for Olympic weightlifting and occasionally compete for fun. I also do CrossFit to get just enough cardio in to survive everyday life. 
+
+I enjoy attending piano concertos and recitals. I played the piano until highschool with the hope of attending a conservatory (I did not). Still, I was especially excited to join an institution with a renowned music school like Peabody!
+
 ## Education
 
 <font size="4">**ScM Candidate in Biostatistics**</font><br>Johns Hopkins School of Public Health | August 2025 - Present
@@ -25,11 +31,4 @@ Associate Data Manager, Clinical Data Sciences, R&D</span></a> | <font size="4">
 - <a href="https://github.com/louiseoh18/automobile-safety-ML.git"><span style="color: #000000;"> Predicting Automobile Safety using ML</span></a> 
 
 - <a href="https://github.com/louiseoh18/pregnancy-care-ML.git"><span style="color: #000000;"> Improving Pregnancy Care During the Pandemic</span></a>
-
-
-## Hobbies
-
-🏋 <br>I  dedicate most of my free time training for Olympic weightlifting. Every now and then, I also do CrossFit to get just enough cardio in to survive everyday life. I occasionally compete for fun.
-
-🎵 <br>I enjoy attending piano concertos and recitals. I grew up playing the piano with hopes of attending a conservatory (I did not). Still, I was especially excited to join an institution with a renowned music school like Peabody!
 
